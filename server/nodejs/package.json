@@ -16,13 +16,13 @@
     "typescript",
     "cosmosdb"
   ],
-  "homepage": "https://github.com/thecodereaper/tour-of-heroes-nodejs#readme",
+  "homepage": "https://github.com/thecodereaper/tour-of-heroes#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodereaper/tour-of-heroes-nodejs.git"
+    "url": "git+https://github.com/thecodereaper/tour-of-heroes.git"
   },
   "bugs": {
-    "url": "https://github.com/thecodereaper/tour-of-heroes-nodejs/issues"
+    "url": "https://github.com/thecodereaper/tour-of-heroes/issues"
   },
   "dependencies": {
     "@nestjs/common": "^5.1.0",

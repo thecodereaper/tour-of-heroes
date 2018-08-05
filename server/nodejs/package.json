@@ -1,0 +1,53 @@
+{
+  "name": "tour-of-heroes-api",
+  "version": "1.0.0",
+  "description": "A node restful api built using nestjs, typescript and cosmosdb.",
+  "author": "theCodeReaper",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node ./dist/main.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "node",
+    "nestjs",
+    "typescript",
+    "cosmosdb"
+  ],
+  "homepage": "https://github.com/thecodereaper/tour-of-heroes-nodejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodereaper/tour-of-heroes-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thecodereaper/tour-of-heroes-nodejs/issues"
+  },
+  "dependencies": {
+    "@nestjs/common": "^5.1.0",
+    "@nestjs/core": "^5.1.0",
+    "@nestjs/microservices": "^5.1.0",
+    "@nestjs/swagger": "^2.2.0",
+    "@nestjs/websockets": "^5.1.0",
+    "body-parser": "^1.18.3",
+    "class-transformer": "^0.1.9",
+    "class-validator": "^0.9.1",
+    "documentdb": "^1.14.5",
+    "dotenv": "^6.0.0",
+    "module-alias": "^2.1.0",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/documentdb": "^1.10.5",
+    "@types/dotenv": "^4.0.3",
+    "@types/node": "^10.5.5",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "_moduleAliases": {
+    "@framework": "dist/@framework"
+  }
+}

@@ -1,4 +1,4 @@
-# node-tour-of-heroes-tutorial
+# tour-of-heroes-tutorial
 
 ## Getting started
 
